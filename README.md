@@ -1,13 +1,16 @@
 # AWS Elastic Beanstalk Walla Sample App 
 
 ## 실행
-### node app.js
+- node app.js
 
 ## 포트 확인
-### lsof -i tcp:3000
+- lsof -i tcp:3000
 
 ## 포트 죽이기
-### kill -9 [psid]
+- kill -9 [psid]
 
 ## 압축
-### zip -r -X nodejs6.zip ./
+- zip -r -X nodejs6.zip ./
+
+## 도메인
+- http://wallaexample.ap-northeast-2.elasticbeanstalk.com/
